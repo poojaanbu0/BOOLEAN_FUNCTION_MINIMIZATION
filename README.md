@@ -58,11 +58,11 @@ and(p,bdash,ddash);
 and(q,adash,b,d);
 and(r,a,b,cdash);
 or(f1,p,q,r);
-and(s,ydash,z);
-and(t,x,y);
-and(u,w,y);
-or(f2,s,t,u);
-endmodule//type code for f2 as like f1
+and (s,ydashz);
+and (t,x,y);
+and (u,w,y);
+or (f2,s,t,u);
+endmodule
 ```
 
 **RTL realization**
